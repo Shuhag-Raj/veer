@@ -1,0 +1,43 @@
+@media (max-width: 991.98px){ 
+    .menu{  
+        position: absolute;
+        left: 0;
+        display: none;
+        top: 60px;
+        width: 100%;
+        background: #1cabc48c; 
+        margin: 0 !important;
+    } 
+    ul{
+        padding-left: 0;
+    }
+    .header_container {
+        width: 100%;  
+    }
+    .menu li{
+        padding: 15px 0;
+        border-bottom: 1px solid #ffffff4d;
+        width: 50%;
+        margin: auto;
+        text-align: center;
+    }   
+    .collapse_btn{ 
+        display: block;  
+    } 
+    /* End Header */
+    /*Start Body */
+    .hero_con p{
+        font-size: 55px;
+    }
+}
+@media (max-width: 767.98px){
+    .hero_con p{
+        font-size: 45px;
+    }
+}
+@media (max-width: 575.98px){
+    .hero_con p{
+        font-size: 35px;
+    } 
+}
+ 
